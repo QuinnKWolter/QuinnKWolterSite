@@ -1,0 +1,8 @@
+db.sqlite3
+*/__*
+*/*/__*
+*/migrations/*
+QuinnKWolterSite/secrets.py
+QuinnKWolterSite/migrations/
+static/files/
+static/media/
