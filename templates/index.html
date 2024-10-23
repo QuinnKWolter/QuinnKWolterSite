@@ -1,142 +1,254 @@
 {% extends "base.html" %}
 {% load static %}
-
-{% block title %}Quinn K Wolter{% endblock %}
-
-{% block load_css %}
-{% endblock %}
-
-{% block load_js %}
-{% endblock %}
-
+{% block title %}Quinn K Wolter {% endblock %}
+{% block load_css %} {% endblock %}
+{% block load_js %} {% endblock%}
 {% block content %}
-  <!-- Navigation-->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="sideNav">
-      <a class="navbar-brand js-scroll-trigger" href="#page-top">
-          <span class="d-block d-lg-none">Quinn K Wolter</span>
-          <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="{% static "img/QuinnKWolterPic.jpg" %}" alt="Quinn K Wolter" /></span>
-      </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-      <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav">
-              <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
-              <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Experience</a></li>
-              <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Education</a></li>
-              <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
-              <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#interests">Interests & Hobbies</a></li>
-              <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#awards">Awards & Publications</a></li>
-              <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#projects">Projects</a></li>
-          </ul>
+<!-- Navigation-->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="sideNav">
+  <a class="navbar-brand js-scroll-trigger" href="#page-top">
+    <span class="d-block d-lg-none">Quinn K Wolter</span>
+    <span class="d-none d-lg-block"
+      ><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="{% static "img/QuinnKWolterPic.jpg" %}" alt="Quinn K Wolter Profile Picture"/></span
+    >
+  </a>
+  <button
+    class="navbar-toggler"
+    type="button"
+    data-bs-toggle="collapse"
+    data-bs-target="#navbarResponsive"
+    aria-controls="navbarResponsive"
+    aria-expanded="false"
+    aria-label="Toggle navigation"
+  >
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarResponsive">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link js-scroll-trigger" href="#about">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link js-scroll-trigger" href="#experience">Experience</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link js-scroll-trigger" href="#education">Education</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link js-scroll-trigger" href="#interests"
+          >Interests & Hobbies</a
+        >
+      </li>
+      <li class="nav-item">
+        <a class="nav-link js-scroll-trigger" href="#awards"
+          >Awards & Publications</a
+        >
+      </li>
+      <li class="nav-item">
+        <a class="nav-link js-scroll-trigger" href="#projects">Projects</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+<!-- Page Content-->
+<div class="container-fluid p-0">
+  <!-- About-->
+  <section class="resume-section" id="about">
+    <div class="resume-section-content">
+      <h1 class="mb-0">
+        Quinn K
+        <span class="text-danger">Wolter</span>
+      </h1>
+      <div class="subheading mb-5">
+        4707 Maripoe St · Pittsburgh, PA 15213 · (814) 615-7777 ·
+        <a href="mailto:QuinnKWolter@gmail.com">QuinnKWolter@gmail.com</a>
       </div>
-  </nav>
-  <!-- Page Content-->
-  <div class="container-fluid p-0">
-      <!-- About-->
-      <section class="resume-section" id="about">
-          <div class="resume-section-content">
-              <h1 class="mb-0">
-                  Quinn K
-                  <span class="text-danger">Wolter</span>
-              </h1>
-              <div class="subheading mb-5">
-                  4707 Maripoe St · Pittsburgh, PA 15213 · (814) 615-7777 ·
-                  <a href="mailto:name@email.com">QuinnKWolter@gmail.com</a>
-              </div>
-              <p class="lead mb-5">I am an experienced full-stack developer with experience drafting specifications and requirements, structuring and organizing teams from a position of leadership, and implementing robust interactive visualizations drawing from multiple databases.</p>
-              <div class="social-icons">
-                  <a class="social-icon" href="https://www.linkedin.com/in/quinn-k-wolter-4b68bb8b/"><i class="bi bi-linkedin"></i></a>
-                  <a class="social-icon" href="https://github.com/QuinnKWolter"><i class="bi bi-github"></i></a>
-                  <a class="social-icon" href="https://twitter.com/WolterQuinn"><i class="bi bi-twitter"></i></a>
-                  <!-- <a class="social-icon" href="#!"><i class="bi bi-facebook"></i></a> -->
-              </div>
+      <p class="lead mb-5">
+        I am a senior full-stack developer and computational biologist with
+        experience drafting specifications and requirements, structuring and
+        organizing teams from a position of leadership, and implementing robust
+        interactive visualizations drawing from multiple databases.
+      </p>
+      <div class="social-icons">
+        <a
+          class="social-icon"
+          href="https://www.linkedin.com/in/quinn-k-wolter-4b68bb8b/"
+          ><i class="bi bi-linkedin"></i
+        ></a>
+        <a class="social-icon" href="https://github.com/QuinnKWolter"
+          ><i class="bi bi-github"></i
+        ></a>
+        <a class="social-icon" href="https://twitter.com/QuinnKWolter"
+          ><i class="bi bi-twitter"></i
+        ></a>
+        <!-- <a class="social-icon" href="#!"><i class="bi bi-facebook"></i></a> -->
+      </div>
+    </div>
+  </section>
+  <hr class="m-0" />
+  <!-- Experience-->
+  <section class="resume-section" id="experience">
+    <div class="resume-section-content">
+      <h2 class="mb-5">Experience</h2>
+      <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+        <div class="flex-grow-1">
+          <h3 class="mb-0">Senior Full-Stack Developer</h3>
+          <div class="subheading mb-3">BioSystics Inc.</div>
+          <p>
+            As a lead developer with the University of Pittsburgh's Drug
+            Discovery Institute, I have worked with labs across the world to
+            help deliver a suite of tools worthy of a new age of biotech
+            research. Together, our success saw us in the fortunate position to
+            strike out as an independent entity with our service, which
+            continues to be the focus of my primary development efforts to this
+            day.
+          </p>
+        </div>
+        <div class="flex-shrink-0">
+          <span class="text-danger">Jan 2018 - Present</span>
+        </div>
+      </div>
+      <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+        <div class="flex-grow-1">
+          <h3 class="mb-0">Computational Biologist & Web Developer</h3>
+          <div class="subheading mb-3">
+            University of Pittsburgh Drug Discovery Institute
           </div>
-      </section>
-      <hr class="m-0" />
-      <!-- Experience-->
-      <section class="resume-section" id="experience">
-          <div class="resume-section-content">
-              <h2 class="mb-5">Experience</h2>
-              <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                  <div class="flex-grow-1">
-                      <h3 class="mb-0">Senior Full-Stack Developer</h3>
-                      <div class="subheading mb-3">BioSystics Inc.</div>
-                      <p>As a lead developer with the University of Pittsburgh's Drug Discovery Institute, I have worked with labs across the world to help deliver a suite of tools worthy of a new age of biotech research. Together, our success saw us in the fortunate position to strike out as an independent entity with our service, which continues to be the focus of my primary development efforts to this day.</p>
-                  </div>
-                  <div class="flex-shrink-0"><span class="text-danger">TBD - Present</span></div>
-              </div>
-              <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                  <div class="flex-grow-1">
-                      <h3 class="mb-0">Computational Biologist & Web Developer</h3>
-                      <div class="subheading mb-3">University of Pittsburgh Drug Discovery Institute</div>
-                      <ul>
-                        <li>Conceived of and constructed interfaces ranging from data upload and analysis, visualization, web scraping, and more.</li>
-                        <li>Collected requirements and drafted specifications for public-facing web interfaces in accordance with grant terms and aggregated user feedback in response to them.</li>
-                        <li>Instituted analytics dashboard hooks, compiled and parsed accrued information for regular reports, data analysis, and decision-making meetings.</li>
-                      </ul>
-                  </div>
-                  <div class="flex-shrink-0"><span class="text-danger">January 2018 - Present</span></div>
-              </div>
-              <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                  <div class="flex-grow-1">
-                      <h3 class="mb-0">Assistant Archivist</h3>
-                      <div class="subheading mb-3">Hillman Library Renovation Project</div>
-                      <p>Trained new hires and aided in the transportation, organiziation, indexing, and storage of over 900,000 volumes of multimedia content.</p>
-                  </div>
-                  <div class="flex-shrink-0"><span class="text-danger">August 2016 - November 2017</span></div>
-              </div>
-              <div class="d-flex flex-column flex-md-row justify-content-between">
-                  <div class="flex-grow-1">
-                      <h3 class="mb-0">Assistant Computing Lab Coordinator</h3>
-                      <div class="subheading mb-3">University of Pittsburgh Information Technology Department</div>
-                      <ul>
-                        <li>Handled day-to-day operations of individual computing labs, fielding technical questions from students, staff, and employees.</li>
-                        <li>Led new-hire evaluation, interviews, and training, including the direction, recording, and editing of technical training videos.</li>
-                        <li>Promoted from Computing Lab Consultant April 2015 and from Senior Computing Lab Consultant January 2016.</li>
-                      </ul>
-                  </div>
-                  <div class="flex-shrink-0"><span class="text-danger">November 2014 - May 2016</span></div>
-              </div>
+          <ul>
+            <li>
+              Conceived of and constructed interfaces ranging from data upload
+              and analysis, visualization, web scraping, and more.
+            </li>
+            <li>
+              Collected requirements and drafted specifications for
+              public-facing web interfaces in accordance with grant terms and
+              aggregated user feedback in response to them.
+            </li>
+            <li>
+              Instituted analytics dashboard hooks, compiled and parsed accrued
+              information for regular reports, data analysis, and
+              decision-making meetings.
+            </li>
+          </ul>
+        </div>
+        <div class="flex-shrink-0">
+          <span class="text-danger">January 2018 - Present</span>
+        </div>
+      </div>
+      <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+        <div class="flex-grow-1">
+          <h3 class="mb-0">Assistant Archivist</h3>
+          <div class="subheading mb-3">Hillman Library Renovation Project</div>
+          <p>
+            Trained new hires and aided in the transportation, organiziation,
+            indexing, and storage of over 900,000 volumes of multimedia content.
+          </p>
+        </div>
+        <div class="flex-shrink-0">
+          <span class="text-danger">August 2016 - November 2017</span>
+        </div>
+      </div>
+      <div class="d-flex flex-column flex-md-row justify-content-between">
+        <div class="flex-grow-1">
+          <h3 class="mb-0">Assistant Computing Lab Coordinator</h3>
+          <div class="subheading mb-3">
+            University of Pittsburgh Information Technology Department
           </div>
-      </section>
-      <hr class="m-0" />
-      <!-- Education-->
-      <section class="resume-section" id="education">
-          <div class="resume-section-content">
-              <h2 class="mb-5">Education</h2>
-              <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                  <div class="flex-grow-1">
-                      <h3 class="mb-0">Master of Science in Information Technology</h3>
-                      <h4 class="mb-0">Information Science & Technology</h4>
-                      <div class="subheading mb-3">University of Pittsburgh</div>
-                      <div>Computer Science - Web Development Track</div>
-                  </div>
-                  <div class="flex-shrink-0"><span class="text-danger">January 2021 - Present</span></div>
-              </div>
-              <div class="d-flex flex-column flex-md-row justify-content-between">
-                  <div class="flex-grow-1">
-                      <h3 class="mb-0">Bachelor of Science</h3>
-                      <h4 class="mb-0">Information Science & Technology</h4>
-                      <div class="subheading mb-3">University of Pittsburgh</div>
-                  </div>
-                  <div class="flex-shrink-0"><span class="text-danger">August 2012 - May 2016</span></div>
-              </div>
-          </div>
-      </section>
-      <hr class="m-0" />
-      <!-- Skills-->
-      <section class="resume-section" id="skills">
-          <div class="resume-section-content">
-              <h2 class="mb-5">Skills</h2>
-              <div class="subheading mb-3">Programming Languages</div>
-              <ul class="list-inline">
-                  <li class="list-inline-item"><img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" /></li>
-                  <li class="list-inline-item"><img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" /></li>
-                  <li class="list-inline-item"><img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E" /></li>
-                  <li class="list-inline-item"><img src="https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue" /></li>
-                  <li class="list-inline-item"><img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white" /></li>
-                  <li class="list-inline-item"><img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white" /></li>
-                  <li class="list-inline-item"><img src="https://img.shields.io/badge/Lua-2C2D72?style=for-the-badge&logo=lua&logoColor=white" /></li>
-                  <!-- <li class="list-inline-item"><i class="fab fa-angular"></i></li>
+          <ul>
+            <li>
+              Handled day-to-day operations of individual computing labs,
+              fielding technical questions from students, staff, and employees.
+            </li>
+            <li>
+              Led new-hire evaluation, interviews, and training, including the
+              direction, recording, and editing of technical training videos.
+            </li>
+            <li>
+              Promoted from Computing Lab Consultant April 2015 and from Senior
+              Computing Lab Consultant January 2016.
+            </li>
+          </ul>
+        </div>
+        <div class="flex-shrink-0">
+          <span class="text-danger">November 2014 - May 2016</span>
+        </div>
+      </div>
+    </div>
+  </section>
+  <hr class="m-0" />
+  <!-- Education-->
+  <section class="resume-section" id="education">
+    <div class="resume-section-content">
+      <h2 class="mb-5">Education</h2>
+      <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+        <div class="flex-grow-1">
+          <h3 class="mb-0">Master of Science</h3>
+          <h4 class="mb-0">Information Science & Technology</h4>
+          <div class="subheading mb-3">University of Pittsburgh</div>
+          <div>Computer Science - Web Development Track</div>
+        </div>
+        <div class="flex-shrink-0">
+          <span class="text-danger">January 2021 - Present</span>
+        </div>
+      </div>
+      <div class="d-flex flex-column flex-md-row justify-content-between">
+        <div class="flex-grow-1">
+          <h3 class="mb-0">Bachelor of Science</h3>
+          <h4 class="mb-0">Information Science & Technology</h4>
+          <div class="subheading mb-3">University of Pittsburgh</div>
+        </div>
+        <div class="flex-shrink-0">
+          <span class="text-danger">August 2012 - May 2016</span>
+        </div>
+      </div>
+    </div>
+  </section>
+  <hr class="m-0" />
+  <!-- Skills-->
+  <section class="resume-section" id="skills">
+    <div class="resume-section-content">
+      <h2 class="mb-5">Skills</h2>
+      <div class="subheading mb-3">Programming Languages</div>
+      <ul class="list-inline">
+        <li class="list-inline-item">
+          <img
+            src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"
+          />
+        </li>
+        <li class="list-inline-item">
+          <img
+            src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"
+          />
+        </li>
+        <li class="list-inline-item">
+          <img
+            src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E"
+          />
+        </li>
+        <li class="list-inline-item">
+          <img
+            src="https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue"
+          />
+        </li>
+        <li class="list-inline-item">
+          <img
+            src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white"
+          />
+        </li>
+        <li class="list-inline-item">
+          <img
+            src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white"
+          />
+        </li>
+        <li class="list-inline-item">
+          <img
+            src="https://img.shields.io/badge/Lua-2C2D72?style=for-the-badge&logo=lua&logoColor=white"
+          />
+        </li>
+        <!-- <li class="list-inline-item"><i class="fab fa-angular"></i></li>
                   <li class="list-inline-item"><i class="fab fa-react"></i></li>
                   <li class="list-inline-item"><i class="fab fa-node-js"></i></li>
                   <li class="list-inline-item"><i class="fab fa-sass"></i></li>
@@ -145,132 +257,326 @@
                   <li class="list-inline-item"><i class="fab fa-gulp"></i></li>
                   <li class="list-inline-item"><i class="fab fa-grunt"></i></li>
                   <li class="list-inline-item"><i class="fab fa-npm"></i></li> -->
-              </ul>
+      </ul>
 
-              <div class="subheading mb-3">Web Frameworks</div>
-              <ul class="list-inline">
-                <li class="list-inline-item"><img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=green" /></li>
-                <li class="list-inline-item"><img src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white" /></li>
-                <li class="list-inline-item"><img src="https://img.shields.io/badge/jQuery UI-0769AD?style=for-the-badge&logo=jquery&logoColor=white" /></li>
-              </ul>
+      <div class="subheading mb-3">Web Frameworks</div>
+      <ul class="list-inline">
+        <li class="list-inline-item">
+          <img
+            src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=green"
+          />
+        </li>
+        <li class="list-inline-item">
+          <img
+            src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white"
+          />
+        </li>
+        <li class="list-inline-item">
+          <img
+            src="https://img.shields.io/badge/jQuery UI-0769AD?style=for-the-badge&logo=jquery&logoColor=white"
+          />
+        </li>
+      </ul>
 
-              <div class="subheading mb-3">Tools & Libraries</div>
-              <ul class="list-inline">
-                <li class="list-inline-item"><img src="https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white" /></li>
-                <li class="list-inline-item"><img src="https://img.shields.io/badge/json-5E5C5C?style=for-the-badge&logo=json&logoColor=white" /></li>
-                <li class="list-inline-item"><img src="https://img.shields.io/badge/Pandas-2C2D72?style=for-the-badge&logo=pandas&logoColor=white" /></li>
-                <li class="list-inline-item"><img src="https://img.shields.io/badge/Numpy-777BB4?style=for-the-badge&logo=numpy&logoColor=white" /></li>
-                <li class="list-inline-item"><img src="https://img.shields.io/badge/scikit_learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" /></li>
-                <li class="list-inline-item"><img src="https://img.shields.io/badge/OpenCV-27338e?style=for-the-badge&logo=OpenCV&logoColor=white" /></li>
-                <li class="list-inline-item"><img src="https://img.shields.io/badge/Jupyter-F37626.svg?&style=for-the-badge&logo=Jupyter&logoColor=white" /></li>
-                <li class="list-inline-item"><img src="https://img.shields.io/badge/Google%20Analytics-E37400?style=for-the-badge&logo=google%20analytics&logoColor=white" /></li>
-              </ul>
+      <div class="subheading mb-3">Tools & Libraries</div>
+      <ul class="list-inline">
+        <li class="list-inline-item">
+          <img
+            src="https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white"
+          />
+        </li>
+        <li class="list-inline-item">
+          <img
+            src="https://img.shields.io/badge/json-5E5C5C?style=for-the-badge&logo=json&logoColor=white"
+          />
+        </li>
+        <li class="list-inline-item">
+          <img
+            src="https://img.shields.io/badge/Pandas-2C2D72?style=for-the-badge&logo=pandas&logoColor=white"
+          />
+        </li>
+        <li class="list-inline-item">
+          <img
+            src="https://img.shields.io/badge/Numpy-777BB4?style=for-the-badge&logo=numpy&logoColor=white"
+          />
+        </li>
+        <li class="list-inline-item">
+          <img
+            src="https://img.shields.io/badge/scikit_learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white"
+          />
+        </li>
+        <li class="list-inline-item">
+          <img
+            src="https://img.shields.io/badge/OpenCV-27338e?style=for-the-badge&logo=OpenCV&logoColor=white"
+          />
+        </li>
+        <li class="list-inline-item">
+          <img
+            src="https://img.shields.io/badge/Jupyter-F37626.svg?&style=for-the-badge&logo=Jupyter&logoColor=white"
+          />
+        </li>
+        <li class="list-inline-item">
+          <img
+            src="https://img.shields.io/badge/Google%20Analytics-E37400?style=for-the-badge&logo=google%20analytics&logoColor=white"
+          />
+        </li>
+      </ul>
 
-              <div class="subheading mb-3">Database Systems</div>
-              <ul class="list-inline">
-                <li class="list-inline-item"><img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" /></li>
-                <li class="list-inline-item"><img src="https://img.shields.io/badge/SQLite-07405E?style=for-the-badge&logo=sqlite&logoColor=white" /></li>
-                <li class="list-inline-item"><img src="https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white" /></li>
-                <li class="list-inline-item"><img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white" /></li>
-              </ul>
+      <div class="subheading mb-3">Database Systems</div>
+      <ul class="list-inline">
+        <li class="list-inline-item">
+          <img
+            src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white"
+          />
+        </li>
+        <li class="list-inline-item">
+          <img
+            src="https://img.shields.io/badge/SQLite-07405E?style=for-the-badge&logo=sqlite&logoColor=white"
+          />
+        </li>
+        <li class="list-inline-item">
+          <img
+            src="https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white"
+          />
+        </li>
+        <li class="list-inline-item">
+          <img
+            src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white"
+          />
+        </li>
+      </ul>
 
-              <div class="subheading mb-3">Systems & Software</div>
-              <ul class="list-inline">
-                <li class="list-inline-item"><img src="https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white" /></li>
-                <li class="list-inline-item"><img src="https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white" /></li>
-                <li class="list-inline-item"><img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" /></li>
-                <li class="list-inline-item"><img src="https://img.shields.io/badge/mac%20os-000000?style=for-the-badge&logo=apple&logoColor=white" /></li>
-                <br><br>
-                <li class="list-inline-item"><img src="https://img.shields.io/badge/Atom-66595C?style=for-the-badge&logo=Atom&logoColor=white" /></li>
-                <li class="list-inline-item"><img src="https://img.shields.io/badge/LibreOffice-18A303?style=for-the-badge&logo=LibreOffice&logoColor=white" /></li>
-                <li class="list-inline-item"><img src="https://img.shields.io/badge/Word-2B579A?style=for-the-badge&logo=microsoft-word&logoColor=white" /></li>
-                <li class="list-inline-item"><img src="https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white" /></li>
-                <li class="list-inline-item"><img src="https://img.shields.io/badge/Access-A4373A?style=for-the-badge&logo=microsoft-access&logoColor=white" /></li>
-                <li class="list-inline-item"><img src="https://img.shields.io/badge/PowerPoint-B7472A?style=for-the-badge&logo=microsoft-powerpoint&logoColor=white" /></li>
-                <li class="list-inline-item"><img src="https://img.shields.io/badge/Unity-100000?style=for-the-badge&logo=unity&logoColor=white" /></li>
-              </ul>
+      <div class="subheading mb-3">Systems & Software</div>
+      <ul class="list-inline">
+        <li class="list-inline-item">
+          <img
+            src="https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white"
+          />
+        </li>
+        <li class="list-inline-item">
+          <img
+            src="https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white"
+          />
+        </li>
+        <li class="list-inline-item">
+          <img
+            src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black"
+          />
+        </li>
+        <li class="list-inline-item">
+          <img
+            src="https://img.shields.io/badge/mac%20os-000000?style=for-the-badge&logo=apple&logoColor=white"
+          />
+        </li>
+        <br /><br />
+        <li class="list-inline-item">
+          <img
+            src="https://img.shields.io/badge/Atom-66595C?style=for-the-badge&logo=Atom&logoColor=white"
+          />
+        </li>
+        <li class="list-inline-item">
+          <img
+            src="https://img.shields.io/badge/LibreOffice-18A303?style=for-the-badge&logo=LibreOffice&logoColor=white"
+          />
+        </li>
+        <li class="list-inline-item">
+          <img
+            src="https://img.shields.io/badge/Word-2B579A?style=for-the-badge&logo=microsoft-word&logoColor=white"
+          />
+        </li>
+        <li class="list-inline-item">
+          <img
+            src="https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white"
+          />
+        </li>
+        <li class="list-inline-item">
+          <img
+            src="https://img.shields.io/badge/Access-A4373A?style=for-the-badge&logo=microsoft-access&logoColor=white"
+          />
+        </li>
+        <li class="list-inline-item">
+          <img
+            src="https://img.shields.io/badge/PowerPoint-B7472A?style=for-the-badge&logo=microsoft-powerpoint&logoColor=white"
+          />
+        </li>
+        <li class="list-inline-item">
+          <img
+            src="https://img.shields.io/badge/Unity-100000?style=for-the-badge&logo=unity&logoColor=white"
+          />
+        </li>
+      </ul>
+    </div>
+  </section>
+  <hr class="m-0" />
+  <!-- Interests-->
+  <section class="resume-section" id="interests">
+    <div class="resume-section-content">
+      <h2 class="mb-5">Interests & Hobbies</h2>
+      <div class="row">
+        <div class="col-lg-1">
+          <h2><i class="fa-solid fa-person-hiking text-danger"></i></h2>
+        </div>
+        <div class="col-lg-10">
+          <p>
+            When it comes to keeping active, my absolute favorite pastime is
+            bouldering at a local climbing wall here in Pittsburgh; After a few
+            years of effort I can reliably climb at the V5-V6 range. I also
+            enjoy hiking, belaying, and sprinting - almost anything to keep me
+            away from treadmills and free weights, which I often find myself
+            struggling to enjoy.
+          </p>
+        </div>
+      </div>
+      <div class="row mt-3">
+        <div class="col-lg-10">
+          <p>
+            I'm obligated to out myself as an active and passionate Dungeon
+            Master for the 5th edition of D&D. I've led multiple campaigns
+            spanning nearly over half a decade, in addition to numerous one-off
+            events and workshops. My ability to improvise, as well as organize
+            and manage groups of people, echoes across my life in countless ways
+            thanks to this fulfilling hobby.
+          </p>
+        </div>
+        <div class="col-lg-1">
+          <h2><i class="fa-solid fa-dice-d20 text-danger"></i></h2>
+        </div>
+      </div>
+      <div class="row mt-3">
+        <div class="col-lg-1">
+          <h2><i class="fa-solid fa-hand-fist text-danger"></i></h2>
+        </div>
+        <div class="col-lg-10">
+          <p>
+            While not nearly as active as I once was, I practiced and taught
+            martial arts for over a decade before starting my undergrad, and
+            continued on as an instructor for Pitt's Tae Kwon Do and Mixed
+            Martial Arts student organizations. It remains an important part of
+            my physical and philosophical makeup to this day, and my achievement
+            of a 2nd degree black belt is one of my proudest.
+          </p>
+        </div>
+      </div>
+      <div class="row mt-3">
+        <div class="col-lg-10">
+          <p>
+            Settling for a career in development would be nonsensical if I
+            didn't love what I do. As such, I regularly tutor new and
+            experienced programmers of all ages, lead community workshops, and
+            spread the good word of open source development wherever it can be
+            heard. I've made personal projects ranging from full-fledged VR
+            games and graduate level educational simulations, to relatively
+            successful automated algo-trading bots and tools for aiding myself
+            and others in day to day tasks.
+          </p>
+        </div>
+        <div class="col-lg-1">
+          <h2><i class="bi bi-graph-up-arrow text-danger"></i></h2>
+        </div>
+      </div>
+      <div class="row mt-3">
+        <div class="col-lg-1">
+          <h2><i class="fa-solid fa-seedling text-danger"></i></h2>
+        </div>
+        <div class="col-lg-10">
+          <p>
+            Settling for a career in development would be nonsensical if I
+            didn't love what I do. As such, I regularly tutor new and
+            experienced programmers of all ages, lead community workshops, and
+            spread the good word of open source development whereever it can be
+            heard. I've made personal projects ranging from full-fledged VR
+            games and graduate level educational simulations, to relatively
+            successful automated algo-trading bots and tools for aiding myself
+            and others in day to day tasks.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <hr class="m-0" />
+  <!-- Awards-->
+  <section class="resume-section" id="awards">
+    <div class="resume-section-content">
+      <h2 class="mb-5">Awards & Publications</h2>
+      <ul class="fa-ul mb-0">
+        <div class="subheading mb-3">Awards</div>
+        <li>
+          <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+          Google Analytics Certified Developer
+        </li>
+        <li>
+          <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+          Mobile Web Specialist - Google Certification
+        </li>
+        <br />
+        <div class="subheading mb-3">Publications</div>
+        <li>
+          <span class="fa-li"
+            ><i class="fas fa-book-medical text-warning"></i
+          ></span>
+          Mark Schurdak, et al. (2020).
+          <em
+            >Applications of the microphysiology systems database for
+            experimental ADME-Tox and disease models. Lab on a Chip, Issue 8
+            2020. Co-author.</em
+          >
+        </li>
+      </ul>
+    </div>
+  </section>
+  <hr class="m-0" />
+  <!-- Projects-->
+  <section class="resume-section" id="projects">
+    <div class="resume-section-content">
+      <h2 class="mb-5">Projects</h2>
+      <div class="row">
+        <!-- Project Card -->
+        <div class="col-md-4 mb-5">
+          <div class="card h-100">
+            <img
+              src="{% static 'img/project1.jpg' %}"
+              class="card-img-top"
+              alt="Project 1 Image"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Project Name 1</h5>
+              <p class="card-text">
+                Brief description of the project. Highlight key features,
+                technologies used, and the impact or purpose of the project.
+              </p>
+            </div>
+            <div class="card-footer">
+              <a href="project1-details.html" class="btn btn-primary"
+                >Learn More</a
+              >
+            </div>
           </div>
-      </section>
-      <hr class="m-0" />
-      <!-- Interests-->
-      <section class="resume-section" id="interests">
-          <div class="resume-section-content">
-              <h2 class="mb-5">Interests & Hobbies</h2>
-              <div class="row">
-                <div class="col-lg-1">
-                  <h2><i class="fa-solid fa-person-hiking text-danger"></i></h2>
-                </div>
-                <div class="col-lg-10">
-                  <p>When it comes to keeping active, my absolute favorite pastime is bouldering at a local climbing wall here in Pittsburgh; after a few years of effort I can reliably climb at the V4-V5 range. I also enjoy hiking, belaying, and sprinting - almost anything to keep me away from treadmills and free weights, which I often find myself struggling to enjoy.</p>
-                </div>
-              </div>
-              <div class="row mt-3">
-                <div class="col-lg-10">
-                  <p>I'm obligated to out myself as an active and passionate Dungeon Master for the 5th edition of D&D. I've led multiple campaigns spanning nearly half-a-decade in some cases, in addition to numerous one-off events and workshops. My ability to improvise, as well as organize and manage groups of people, echoes across my life in countless ways thanks to this fulfilling hobby.</p>
-                </div>
-                <div class="col-lg-1">
-                  <h2><i class="fa-solid fa-dice-d20 text-danger"></i></h2>
-                </div>
-              </div>
-              <div class="row mt-3">
-                <div class="col-lg-1">
-                  <h2><i class="fa-solid fa-hand-fist text-danger"></i></h2>
-                </div>
-                <div class="col-lg-10">
-                  <p>While not nearly as active as I once was, I practiced and taught martial arts for over a decade before starting my undergrad, and continued on as an instructor for Pitt's Tae Kwon Do and Mixed Martial Arts student organizations. It remains an important part of my physical and philosophical makeup to this day, and my achievement of a 2nd degree black belt is one of my proudest.</p>
-                </div>
-              </div>
-              <div class="row mt-3">
-                <div class="col-lg-10">
-                  <p>Settling for a career in development would be nonsensical if I didn't love what I do. As such, I regularly tutor new and experienced programmers of all ages, lead community workshops, and spread the good word of open source development whereever it can be heard. I've made personal projects ranging from full-fledged VR games and graduate level educational simulations, to relatively successful automated algo-trading bots and tools for aiding myself and others in day to day tasks.</p>
-                </div>
-                <div class="col-lg-1">
-                  <h2><i class="bi bi-graph-up-arrow text-danger"></i></h2>
-                </div>
-              </div>
-              <div class="row mt-3">
-                <div class="col-lg-1">
-                  <h2><i class="fa-solid fa-seedling text-danger"></i></h2>
-                </div>
-                <div class="col-lg-10">
-                  <p>Settling for a career in development would be nonsensical if I didn't love what I do. As such, I regularly tutor new and experienced programmers of all ages, lead community workshops, and spread the good word of open source development whereever it can be heard. I've made personal projects ranging from full-fledged VR games and graduate level educational simulations, to relatively successful automated algo-trading bots and tools for aiding myself and others in day to day tasks.</p>
-                </div>
-              </div>
+        </div>
+        <!-- Repeat similar blocks for additional projects -->
+        <div class="col-md-4 mb-5">
+          <div class="card h-100">
+            <img
+              src="{% static 'img/project2.jpg' %}"
+              class="card-img-top"
+              alt="Project 2 Image"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Project Name 2</h5>
+              <p class="card-text">
+                Brief description of the project. Highlight key features,
+                technologies used, and the impact or purpose of the project.
+              </p>
+            </div>
+            <div class="card-footer">
+              <a href="project2-details.html" class="btn btn-primary"
+                >Learn More</a
+              >
+            </div>
           </div>
-      </section>
-      <hr class="m-0" />
-      <!-- Awards-->
-      <section class="resume-section" id="awards">
-          <div class="resume-section-content">
-              <h2 class="mb-5">Awards & Publications</h2>
-              <ul class="fa-ul mb-0">
-                  <div class="subheading mb-3">Awards</div>
-                  <li>
-                      <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                      Google Analytics Certified Developer
-                  </li>
-                  <li>
-                      <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                      Mobile Web Specialist - Google Certification
-                  </li>
-                  <br>
-                  <div class="subheading mb-3">Publications</div>
-                  <li>
-                      <span class="fa-li"><i class="fas fa-book-medical text-warning"></i></span>
-                      Mark Schurdak, et al. (2020). <em>Applications of the microphysiology systems database for experimental ADME-Tox and disease models. Lab on a Chip, Issue 8 2020. Co-author.</em>
-                  </li>
-              </ul>
-          </div>
-      </section>
-      <hr class="m-0" />
-      <!-- Projects-->
-      <section class="resume-section" id="projects">
-          <div class="resume-section-content">
-              <h2 class="mb-5">Projects</h2>
-              <ul class="fa-ul mb-0">
-                  <div class="subheading mb-3">Coming soon!</div>
-              </ul>
-          </div>
-      </section>
-  </div>
+        </div>
+        <!-- Add more project cards as needed -->
+      </div>
+    </div>
+  </section>
+</div>
 {% endblock %}
